@@ -1,0 +1,16 @@
+<!--
+   Copyright 2020 Sony Corporation
+-->
+<manifest version="1.0" type="device">
+    <!-- IDD -->
+    <hal format="hidl">
+        <name>vendor.semc.system.idd</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IIdd</name>
+            <instance>default</instance>
+            <instance>logreader</instance>
+        </interface>
+    </hal>
+</manifest>

@@ -1,0 +1,4 @@
+on post-fs-data
+# SONY: Start early TA-users
+    mkdir /data/vendor/etc 0755 root shell
+    exec u:r:taimport_vendor:s0 -- /vendor/bin/taimport_vendor

@@ -1,0 +1,11 @@
+# Copyright (C) 2019 Sony Mobile Communications Inc.
+# All rights, including trade secret rights, reserved.
+#
+# wv_kbd.rc
+#
+# DRM widevine
+service wvkbd_installer /vendor/bin/wvkbd
+    class late_start
+    user system
+    group system
+    oneshot

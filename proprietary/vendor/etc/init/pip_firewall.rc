@@ -1,0 +1,14 @@
+# Copyright (c) 2018 Sony Mobile Communications Inc.
+#
+# product specific configuration
+#
+on post-fs-data
+    setprop vendor.pip.firewall.ctl false
+
+service pip_firewall_service /vendor/bin/pip_firewall
+    user root
+    oneshot
+    disabled
+
+on property:vendor.pip.firewall.ctl=true
+    start pip_firewall_service
