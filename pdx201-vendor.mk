@@ -90,6 +90,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pdx201/proprietary/vendor/bin/adpl:$(TARGET_COPY_OUT_VENDOR)/bin/adpl \
     vendor/sony/pdx201/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
     vendor/sony/pdx201/proprietary/vendor/bin/cdsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/cdsprpcd \
+    vendor/sony/pdx201/proprietary/vendor/bin/chg-pwr-service:$(TARGET_COPY_OUT_VENDOR)/bin/chg-pwr-service \
     vendor/sony/pdx201/proprietary/vendor/bin/cnd:$(TARGET_COPY_OUT_VENDOR)/bin/cnd \
     vendor/sony/pdx201/proprietary/vendor/bin/cnss-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/cnss-daemon \
     vendor/sony/pdx201/proprietary/vendor/bin/dpmQmiMgr:$(TARGET_COPY_OUT_VENDOR)/bin/dpmQmiMgr \
@@ -265,6 +266,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pdx201/proprietary/vendor/etc/camera/shdr-gpu-pass-fusion-and-tm-fast.cl:$(TARGET_COPY_OUT_VENDOR)/etc/camera/shdr-gpu-pass-fusion-and-tm-fast.cl \
     vendor/sony/pdx201/proprietary/vendor/etc/camera/shdr-gpu-pass-fusion-and-tm.cl:$(TARGET_COPY_OUT_VENDOR)/etc/camera/shdr-gpu-pass-fusion-and-tm.cl \
     vendor/sony/pdx201/proprietary/vendor/etc/charger_fstab.qti:$(TARGET_COPY_OUT_VENDOR)/etc/charger_fstab.qti \
+    vendor/sony/pdx201/proprietary/vendor/etc/chg-pwr-service.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/chg-pwr-service.cfg \
     vendor/sony/pdx201/proprietary/vendor/etc/cne/mwqem.conf:$(TARGET_COPY_OUT_VENDOR)/etc/cne/mwqem.conf \
     vendor/sony/pdx201/proprietary/vendor/etc/cne/profileMwqem.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/profileMwqem.xml \
     vendor/sony/pdx201/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
