@@ -1487,10 +1487,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pdx201/proprietary/vendor/lib64/vendor.somc.hardware.miscta@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.somc.hardware.miscta@1.0.so \
     vendor/sony/pdx201/proprietary/vendor/lib64/vendor.somc.hardware.radio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.somc.hardware.radio@1.0.so \
     vendor/sony/pdx201/proprietary/vendor/lib64/vendor.somc.hardware.security.secd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.somc.hardware.security.secd@1.0.so \
-    vendor/sony/pdx201/proprietary/vendor/bin/sct_service:$(TARGET_COPY_OUT_VENDOR)/bin/sct_service \
-    vendor/sony/pdx201/proprietary/vendor/bin/taimport_vendor:$(TARGET_COPY_OUT_VENDOR)/bin/taimport_vendor \
-    vendor/sony/pdx201/proprietary/vendor/etc/init/sct_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/sct_service.rc \
-    vendor/sony/pdx201/proprietary/vendor/etc/init/taimport_vendor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/taimport_vendor.rc \
+    vendor/sony/pdx201/proprietary/odm/bin/sct_service:$(TARGET_COPY_OUT_ODM)/bin/sct_service \
+    vendor/sony/pdx201/proprietary/odm/bin/taimport_vendor:$(TARGET_COPY_OUT_ODM)/bin/taimport_vendor \
+    vendor/sony/pdx201/proprietary/odm/etc/init/sct_service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/sct_service.rc \
+    vendor/sony/pdx201/proprietary/odm/etc/init/taimport_vendor.rc:$(TARGET_COPY_OUT_ODM)/etc/init/taimport_vendor.rc \
     vendor/sony/pdx201/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db \
     vendor/sony/pdx201/proprietary/vendor/radio/qcril_database/upgrade/0_initial.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/0_initial.sql \
     vendor/sony/pdx201/proprietary/vendor/radio/qcril_database/upgrade/10_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/10_version_update_ecc_table.sql \
